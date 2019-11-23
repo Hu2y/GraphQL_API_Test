@@ -1,2 +1,2 @@
 # GraphQL_
-Movie API with Graphql
+API test
