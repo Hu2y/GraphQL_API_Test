@@ -1,0 +1,37 @@
+{
+  "name": "graphql_movie",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hu2y/GraphQL_.git"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "Hu2y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hu2y/GraphQL_/issues"
+  },
+  "homepage": "https://github.com/Hu2y/GraphQL_#readme",
+  "dependencies": {
+    "fastify-cors": "^3.0.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-stage-3": "^7.0.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
